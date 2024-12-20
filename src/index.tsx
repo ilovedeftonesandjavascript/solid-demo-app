@@ -25,13 +25,10 @@ import { entityPreload } from "./api/entityPreload";
 const Grid = lazy(() => import("./pages/Grid"));
 const CreatePage = lazy(() => import("./pages/Create"));
 const ViewportPage = lazy(() => import("./pages/Viewport"));
-const PositioningPage = lazy(() => import("./pages/Positioning"));
 const LayoutPage = lazy(() => import("./pages/Layout"));
-const FocusBasicsPage = lazy(() => import("./pages/FocusBasics"));
 const ComponentsPage = lazy(() => import("./pages/Components"));
 const Entity = lazy(() => import("./pages/Entity"));
 const People = lazy(() => import("./pages/People"));
-const LoginPage = lazy(() => import("./pages/Login"));
 
 const urlParams = new URLSearchParams(window.location.search);
 let numImageWorkers = 3;
@@ -90,10 +87,7 @@ render(() => (
     <Route path="tmdb" component={TMDB} preload={tmdbData} />
     <Route path="destroy" component={DestroyPage} preload={destroyData} />
     <Route path="grid" component={Grid} />
-    <Route path="login" component={LoginPage} />
-    <Route path="positioning" component={PositioningPage} />
     <Route path="layout" component={LayoutPage} />
-    <Route path="focusbasics" component={FocusBasicsPage} />
     <Route path="components" component={ComponentsPage} />
     <Route path="create" component={CreatePage} />
     <Route path="viewport" component={ViewportPage} />
