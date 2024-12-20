@@ -62,7 +62,7 @@
       execute: function execute() {
         var _LinearGradientEffect, _RadialGradientEffect, _resolvedGlobal$docum;
         var __vite_style__ = document.createElement('style');
-        __vite_style__.textContent = "html,\nbody,\n* {\n  padding: 0;\n  margin: 0;\n}\nhtml,\nbody {\n  height: 100%;\n  overflow: hidden;\n}\nvideo {\n  position: absolute;\n  top: 0;\n  left: 0;\n  z-index: 2;\n  outline: none;\n}\n.center-element {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n}\n/*$vite$:1*/";
+        __vite_style__.textContent = "html,\r\nbody,\r\n* {\r\n  padding: 0;\r\n  margin: 0;\r\n}\r\nhtml,\r\nbody {\r\n  height: 100%;\r\n  overflow: hidden;\r\n}\r\nvideo {\r\n  position: absolute;\r\n  top: 0;\r\n  left: 0;\r\n  z-index: 2;\r\n  outline: none;\r\n}\r\n.center-element {\r\n  position: absolute;\r\n  top: 50%;\r\n  left: 50%;\r\n  transform: translate(-50%, -50%);\r\n}\r\n/*$vite$:1*/";
         document.head.appendChild(__vite_style__);
         exports({
           B: Block,
@@ -22983,7 +22983,7 @@
             $focus: {
               scale: 1.1,
               border: {
-                color: 0x2C4F7CE8,
+                color: 0xE77D22FF,
                 width: 8
               }
             }
@@ -24291,37 +24291,37 @@
         }
         var Grid = lazy(function () {
           return __vitePreload(function () {
-            return module.import('./Grid-legacy-B3M1guIP.js');
+            return module.import('./Grid-legacy-B06wLB7w.js');
           }, false ? __VITE_PRELOAD__ : void 0);
         });
         var CreatePage = lazy(function () {
           return __vitePreload(function () {
-            return module.import('./Create-legacy-IDzxpV8G.js');
+            return module.import('./Create-legacy-C32pLodW.js');
           }, false ? __VITE_PRELOAD__ : void 0);
         });
         var ViewportPage = lazy(function () {
           return __vitePreload(function () {
-            return module.import('./Viewport-legacy-ChR4HaGy.js');
+            return module.import('./Viewport-legacy-DebRmv9f.js');
           }, false ? __VITE_PRELOAD__ : void 0);
         });
         var LayoutPage = lazy(function () {
           return __vitePreload(function () {
-            return module.import('./Layout-legacy-C0cRTki_.js');
+            return module.import('./Layout-legacy-CfpDpXq_.js');
           }, false ? __VITE_PRELOAD__ : void 0);
         });
         var ComponentsPage = lazy(function () {
           return __vitePreload(function () {
-            return module.import('./Components-legacy-fjMHe2sn.js');
+            return module.import('./Components-legacy-D1d2UwWA.js');
           }, false ? __VITE_PRELOAD__ : void 0);
         });
         var Entity = lazy(function () {
           return __vitePreload(function () {
-            return module.import('./Entity-legacy-BRZ0QpqQ.js');
+            return module.import('./Entity-legacy-ChWvXz0F.js');
           }, false ? __VITE_PRELOAD__ : void 0);
         });
         var People = lazy(function () {
           return __vitePreload(function () {
-            return module.import('./People-legacy-BV0SjCbh.js');
+            return module.import('./People-legacy-DAXaJ5_H.js');
           }, false ? __VITE_PRELOAD__ : void 0);
         });
         var urlParams = new URLSearchParams(window.location.search);

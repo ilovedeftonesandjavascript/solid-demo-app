@@ -1,0 +1,6 @@
+node_modules/
+.DS_Store
+src/api/key.ts
+node_modules
+# This project uses `pnpm` for package management
+package-lock.json

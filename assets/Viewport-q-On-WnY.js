@@ -1,4 +1,4 @@
-import { c as createSignal, g as onMount, n as onCleanup, h as createComponent, V as View, T as Text, s as setGlobalBackground } from "./index-DLS2-4pc.js";
+import { c as createSignal, g as onMount, n as onCleanup, h as createComponent, V as View, T as Text, s as setGlobalBackground } from "./index-B_cXl3zE.js";
 const Viewport = () => {
   let ball, invervalTimer;
   const [ballStatus, setBallStatus] = createSignal([]);

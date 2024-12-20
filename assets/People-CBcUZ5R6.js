@@ -1,4 +1,4 @@
-import { A as api, G as convertItemsToTiles, H as getImageUrl, J as useParams, u as useNavigate, a as createResource, g as onMount, h as createComponent, S as Show, V as View, x as styles, T as Text, t as theme, C as Column, y as TileRow, z as assertTruthy, s as setGlobalBackground } from "./index-DLS2-4pc.js";
+import { A as api, G as convertItemsToTiles, H as getImageUrl, J as useParams, u as useNavigate, a as createResource, g as onMount, h as createComponent, S as Show, V as View, x as styles, T as Text, t as theme, C as Column, y as TileRow, z as assertTruthy, s as setGlobalBackground } from "./index-B_cXl3zE.js";
 function getCredits({ id }) {
   return api.get("/person/".concat(id, "/combined_credits")).then(({ cast }) => convertItemsToTiles(cast.slice(0, 7)));
 }

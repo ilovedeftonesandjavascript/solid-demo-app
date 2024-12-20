@@ -1,4 +1,4 @@
-import { s as setGlobalBackground, h as createComponent, V as View, B as Block, T as Text } from "./index-DLS2-4pc.js";
+import { s as setGlobalBackground, h as createComponent, V as View, B as Block, T as Text } from "./index-B_cXl3zE.js";
 const LayoutPage = () => {
   setGlobalBackground(255);
   return createComponent(View, {

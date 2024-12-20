@@ -16588,7 +16588,7 @@ const styles = {
     zIndex: 2,
     transition: { scale: { duration: 250, easing: "ease-in-out" } },
     border: { width: 0, color: 0 },
-    $focus: { scale: 1.1, border: { color: 743406824, width: 8 } }
+    $focus: { scale: 1.1, border: { color: 3883737855, width: 8 } }
   },
   FocusRing: {
     borderRadius: 16,
@@ -17762,13 +17762,13 @@ function entityPreload({ params: params2, intent: intent2 }) {
   );
   return { entity, credits, recommendations };
 }
-const Grid = lazy(() => __vitePreload(() => import("./Grid-ZaR3Xk_3.js"), true ? [] : void 0));
-const CreatePage = lazy(() => __vitePreload(() => import("./Create-aQD2Pbn7.js"), true ? [] : void 0));
-const ViewportPage = lazy(() => __vitePreload(() => import("./Viewport-B9E8dH33.js"), true ? [] : void 0));
-const LayoutPage = lazy(() => __vitePreload(() => import("./Layout-BsxBA5oa.js"), true ? [] : void 0));
-const ComponentsPage = lazy(() => __vitePreload(() => import("./Components-CVllnlvy.js"), true ? [] : void 0));
-const Entity = lazy(() => __vitePreload(() => import("./Entity-BtQlgfvY.js"), true ? [] : void 0));
-const People = lazy(() => __vitePreload(() => import("./People-BZtw-iOg.js"), true ? [] : void 0));
+const Grid = lazy(() => __vitePreload(() => import("./Grid-CnuZuDFi.js"), true ? [] : void 0));
+const CreatePage = lazy(() => __vitePreload(() => import("./Create-CWYtrxMu.js"), true ? [] : void 0));
+const ViewportPage = lazy(() => __vitePreload(() => import("./Viewport-q-On-WnY.js"), true ? [] : void 0));
+const LayoutPage = lazy(() => __vitePreload(() => import("./Layout-BO6fGIbl.js"), true ? [] : void 0));
+const ComponentsPage = lazy(() => __vitePreload(() => import("./Components-D-EPtzbb.js"), true ? [] : void 0));
+const Entity = lazy(() => __vitePreload(() => import("./Entity-inE9GZx0.js"), true ? [] : void 0));
+const People = lazy(() => __vitePreload(() => import("./People-CBcUZ5R6.js"), true ? [] : void 0));
 const urlParams = new URLSearchParams(window.location.search);
 let numImageWorkers = 3;
 const numWorkers = urlParams.get("numImageWorkers");

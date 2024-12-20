@@ -1,6 +1,6 @@
 ;
 (function () {
-  System.register(['./index-legacy--SB7AO-A.js'], function (exports, module) {
+  System.register(['./index-legacy-QvKm4n-d.js'], function (exports, module) {
     'use strict';
 
     var setGlobalBackground, createComponent, View, Block, Text;
